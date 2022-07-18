@@ -1,0 +1,45 @@
+[
+  {
+    "name": "posts",
+    "path": "/posts",
+    "component": "/Users/mcleancarpenter/Documents/dev/nuxt-course/my-first-nuxt-app/pages/posts/index.vue",
+    "chunkName": "pages/posts/index",
+    "_name": "_7b5c2cff"
+  },
+  {
+    "path": "/users",
+    "component": "/Users/mcleancarpenter/Documents/dev/nuxt-course/my-first-nuxt-app/pages/users.vue",
+    "chunkName": "pages/users",
+    "children": [
+      {
+        "name": "users",
+        "path": "",
+        "component": "/Users/mcleancarpenter/Documents/dev/nuxt-course/my-first-nuxt-app/pages/users/index.vue",
+        "chunkName": "pages/users/index",
+        "_name": "_ace27e18"
+      },
+      {
+        "name": "users-id",
+        "path": ":id",
+        "component": "/Users/mcleancarpenter/Documents/dev/nuxt-course/my-first-nuxt-app/pages/users/_id/index.vue",
+        "chunkName": "pages/users/_id/index",
+        "_name": "_487641df"
+      }
+    ],
+    "_name": "_38d72331"
+  },
+  {
+    "name": "posts-id",
+    "path": "/posts/:id",
+    "component": "/Users/mcleancarpenter/Documents/dev/nuxt-course/my-first-nuxt-app/pages/posts/_id/index.vue",
+    "chunkName": "pages/posts/_id/index",
+    "_name": "_5e48b06a"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/mcleancarpenter/Documents/dev/nuxt-course/my-first-nuxt-app/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_19256e0a"
+  }
+]
