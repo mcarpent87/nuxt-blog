@@ -3,13 +3,15 @@
     "name": "admin",
     "path": "/admin",
     "component": "/Users/mcleancarpenter/Documents/dev/nuxt-course/my-first-nuxt-app/pages/admin/index.vue",
-    "chunkName": "pages/admin/index"
+    "chunkName": "pages/admin/index",
+    "_name": "_a264ed0a"
   },
   {
     "name": "posts",
     "path": "/posts",
     "component": "/Users/mcleancarpenter/Documents/dev/nuxt-course/my-first-nuxt-app/pages/posts/index.vue",
-    "chunkName": "pages/posts/index"
+    "chunkName": "pages/posts/index",
+    "_name": "_7b5c2cff"
   },
   {
     "path": "/users",
@@ -20,44 +22,52 @@
         "name": "users",
         "path": "",
         "component": "/Users/mcleancarpenter/Documents/dev/nuxt-course/my-first-nuxt-app/pages/users/index.vue",
-        "chunkName": "pages/users/index"
+        "chunkName": "pages/users/index",
+        "_name": "_ace27e18"
       },
       {
         "name": "users-id",
         "path": ":id",
         "component": "/Users/mcleancarpenter/Documents/dev/nuxt-course/my-first-nuxt-app/pages/users/_id/index.vue",
-        "chunkName": "pages/users/_id/index"
+        "chunkName": "pages/users/_id/index",
+        "_name": "_487641df"
       }
-    ]
+    ],
+    "_name": "_38d72331"
   },
   {
     "name": "admin-auth",
     "path": "/admin/auth",
     "component": "/Users/mcleancarpenter/Documents/dev/nuxt-course/my-first-nuxt-app/pages/admin/auth/index.vue",
-    "chunkName": "pages/admin/auth/index"
+    "chunkName": "pages/admin/auth/index",
+    "_name": "_ca73a35c"
   },
   {
     "name": "admin-new-post",
     "path": "/admin/new-post",
     "component": "/Users/mcleancarpenter/Documents/dev/nuxt-course/my-first-nuxt-app/pages/admin/new-post/index.vue",
-    "chunkName": "pages/admin/new-post/index"
+    "chunkName": "pages/admin/new-post/index",
+    "_name": "_eff278d2"
   },
   {
     "name": "admin-postId",
     "path": "/admin/:postId",
     "component": "/Users/mcleancarpenter/Documents/dev/nuxt-course/my-first-nuxt-app/pages/admin/_postId/index.vue",
-    "chunkName": "pages/admin/_postId/index"
+    "chunkName": "pages/admin/_postId/index",
+    "_name": "_6379b3a6"
   },
   {
     "name": "posts-id",
     "path": "/posts/:id",
     "component": "/Users/mcleancarpenter/Documents/dev/nuxt-course/my-first-nuxt-app/pages/posts/_id/index.vue",
-    "chunkName": "pages/posts/_id/index"
+    "chunkName": "pages/posts/_id/index",
+    "_name": "_5e48b06a"
   },
   {
     "name": "index",
     "path": "/",
     "component": "/Users/mcleancarpenter/Documents/dev/nuxt-course/my-first-nuxt-app/pages/index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_19256e0a"
   }
 ]
