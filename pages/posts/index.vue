@@ -1,25 +1,6 @@
 <template>
   <div>
-    <section class="posts-list">
-      <PostPreview
-        id="1"
-        thumbnail="https://techcrunch.com/wp-content/uploads/2015/04/codecode.jpg"
-        title="Hello There!"
-        previewText="This is my first post!"
-      />
-      <PostPreview
-        id="2"
-        thumbnail="https://techcrunch.com/wp-content/uploads/2015/04/codecode.jpg"
-        title="Hello There!"
-        previewText="This is my second post!"
-      />
-      <PostPreview
-        id="3"
-        thumbnail="https://techcrunch.com/wp-content/uploads/2015/04/codecode.jpg"
-        title="Hello There!"
-        previewText="This is my third post!"
-      />
-    </section>
+    <section class="posts-list"></section>
   </div>
 </template>
 

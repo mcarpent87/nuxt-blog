@@ -1,10 +1,15 @@
 [
   {
+    "name": "admin",
+    "path": "/admin",
+    "component": "/Users/mcleancarpenter/Documents/dev/nuxt-course/my-first-nuxt-app/pages/admin/index.vue",
+    "chunkName": "pages/admin/index"
+  },
+  {
     "name": "posts",
     "path": "/posts",
     "component": "/Users/mcleancarpenter/Documents/dev/nuxt-course/my-first-nuxt-app/pages/posts/index.vue",
-    "chunkName": "pages/posts/index",
-    "_name": "_7b5c2cff"
+    "chunkName": "pages/posts/index"
   },
   {
     "path": "/users",
@@ -15,31 +20,44 @@
         "name": "users",
         "path": "",
         "component": "/Users/mcleancarpenter/Documents/dev/nuxt-course/my-first-nuxt-app/pages/users/index.vue",
-        "chunkName": "pages/users/index",
-        "_name": "_ace27e18"
+        "chunkName": "pages/users/index"
       },
       {
         "name": "users-id",
         "path": ":id",
         "component": "/Users/mcleancarpenter/Documents/dev/nuxt-course/my-first-nuxt-app/pages/users/_id/index.vue",
-        "chunkName": "pages/users/_id/index",
-        "_name": "_487641df"
+        "chunkName": "pages/users/_id/index"
       }
-    ],
-    "_name": "_38d72331"
+    ]
+  },
+  {
+    "name": "admin-auth",
+    "path": "/admin/auth",
+    "component": "/Users/mcleancarpenter/Documents/dev/nuxt-course/my-first-nuxt-app/pages/admin/auth/index.vue",
+    "chunkName": "pages/admin/auth/index"
+  },
+  {
+    "name": "admin-new-post",
+    "path": "/admin/new-post",
+    "component": "/Users/mcleancarpenter/Documents/dev/nuxt-course/my-first-nuxt-app/pages/admin/new-post/index.vue",
+    "chunkName": "pages/admin/new-post/index"
+  },
+  {
+    "name": "admin-postId",
+    "path": "/admin/:postId",
+    "component": "/Users/mcleancarpenter/Documents/dev/nuxt-course/my-first-nuxt-app/pages/admin/_postId/index.vue",
+    "chunkName": "pages/admin/_postId/index"
   },
   {
     "name": "posts-id",
     "path": "/posts/:id",
     "component": "/Users/mcleancarpenter/Documents/dev/nuxt-course/my-first-nuxt-app/pages/posts/_id/index.vue",
-    "chunkName": "pages/posts/_id/index",
-    "_name": "_5e48b06a"
+    "chunkName": "pages/posts/_id/index"
   },
   {
     "name": "index",
     "path": "/",
     "component": "/Users/mcleancarpenter/Documents/dev/nuxt-course/my-first-nuxt-app/pages/index.vue",
-    "chunkName": "pages/index",
-    "_name": "_19256e0a"
+    "chunkName": "pages/index"
   }
 ]
